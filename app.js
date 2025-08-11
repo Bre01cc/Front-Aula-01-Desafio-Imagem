@@ -9,7 +9,7 @@ function trocarImagem() {
     if (img == "1") {
         let valor = 'celso'
         const varImg = valor
-        const foto = `/img/${varImg}.jpg`
+        const foto = `img/${varImg}.jpg`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
     }
     else if (img == "2") {
@@ -38,7 +38,7 @@ function trocarImagem() {
 
     } else {
         const varImg = img
-        const caminhaImg = `/img/${varImg}.jpeg`
+        const caminhaImg = `img/${varImg}.jpeg`
         document.documentElement.style.setProperty('--bg-img', `url(${caminhaImg})`)
 
     }
