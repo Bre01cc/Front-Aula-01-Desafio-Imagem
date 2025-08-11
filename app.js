@@ -7,26 +7,26 @@ function trocarImagem() {
     //let ordem = ''
 
     if (img == '1'|| img=='celso') {
-        let valor = 'celso'
+        let valor = 'Celso'
         let varImg = valor
         let foto = `./img/${varImg}.jpg`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
         
     }
     else if (img == "2") {
-        let valor = 'estilo'
+        let valor = 'Estilo'
         let varImg = valor
         let foto = `./img/${varImg}.jpeg`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "3"||img=="java") {
-        let valor = './java'
+        let valor = 'Java'
         const varImg = valor
         const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "4") {
-        let valor = 'oculos'
+        let valor = 'Oculos'
         const varImg = valor
         const foto = `./img/${varImg}.jpeg`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
