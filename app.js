@@ -8,8 +8,8 @@ function trocarImagem() {
 
     if (img == "1") {
         let valor = 'celso'
-        const varImg = img
-        const foto = `/img/${varImg}.jpeg`
+        const varImg = valor
+        const foto = `/img/${varImg}.jpg`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
     }
     else if (img == "2") {
@@ -19,7 +19,7 @@ function trocarImagem() {
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "3"||img=="java") {
-        let valor = img
+        let valor = 'java'
         const varImg = valor
         const foto = `/img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
@@ -44,7 +44,7 @@ function trocarImagem() {
     }
 }
 function auto(){
-    document.documentElement.style.setProperty('--bg-animation', 'slider 12s infinite, fade 4s')
+    document.documentElement.style.setProperty('--bg-animation', 'slider 20s, fade 10s')
 }
 autoImagem.addEventListener('click', auto)
 trocarDeImagem.addEventListener('click', trocarImagem)
