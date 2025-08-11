@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --bg-img: none;
+  --bg-img: url(none);
   --bg-animation:none;
 }
 
