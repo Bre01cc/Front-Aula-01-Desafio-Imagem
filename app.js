@@ -7,31 +7,31 @@ function trocarImagem() {
     //let ordem = ''
 
     if (img == '1') {
-        let varImg = valor
+        let varImg = "Basquete"
         let foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
         
     }
     else if (img == "2") {
        
-        let varImg = valor
+        let varImg = "Durant"
         let foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
-    } else if (img == "3"||img=="java") {
+    } else if (img == "3") {
       
-        const varImg = valor
+        const varImg = "LeBron"
         const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "4") {
       
-        const varImg = valor
+        const varImg = "LeBronCavs"
         const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "5") {
-        const varImg = valor
+        const varImg = "LeBronMiame"
         const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
@@ -43,7 +43,7 @@ function trocarImagem() {
     }
 }
 function auto(){
-    document.documentElement.style.setProperty('--bg-animation', 'slider 20s, fade 10s')
+    document.documentElement.style.setProperty('--bg-animation', 'slider 30s, fade 10s')
 }
 autoImagem.addEventListener('click', auto)
 trocarDeImagem.addEventListener('click', trocarImagem)
