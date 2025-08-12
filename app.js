@@ -6,40 +6,38 @@ function trocarImagem() {
     const img = document.getElementById('nomeImg').value
     //let ordem = ''
 
-    if (img == '1'|| img=='celso') {
-        let valor = 'Celso'
+    if (img == '1') {
         let varImg = valor
-        let foto = `./img/${varImg}.jpg`
+        let foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
         
     }
     else if (img == "2") {
-        let valor = 'Estilo'
+       
         let varImg = valor
-        let foto = `./img/${varImg}.jpeg`
+        let foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "3"||img=="java") {
-        let valor = 'Java'
+      
         const varImg = valor
         const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "4") {
-        let valor = 'Oculos'
+      
         const varImg = valor
-        const foto = `./img/${varImg}.jpeg`
+        const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else if (img == "5") {
-        let valor = 'pedra'
         const varImg = valor
-        const foto = `./img/${varImg}.jpeg`
+        const foto = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${foto})`)
 
     } else {
         const varImg = img
-        const caminhaImg = `./img/${varImg}.jpeg`
+        const caminhaImg = `./img/${varImg}.webp`
         document.documentElement.style.setProperty('--bg-img', `url(${caminhaImg})`)
 
     }
